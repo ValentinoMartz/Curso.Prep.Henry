@@ -1,0 +1,32 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+
+*VARIABLES: En programacion, una variable es una etiqueta a la que le ponemos un valor para poder usarla y que la computadura entienda a que nos estamos refiriendo. Por si misma, una computadora no necesita una "etiqueta" para trabajar con distintos tipos de datos, pero es la manera que tenemos los humanos de manipular de datos de forma mas practica y sencilla. Estos datos pueden ser de varios tipos.
+
+
+*STRINGS: Uno de esos tipos de datos, dentro de las variables, son los strings. Basicamente, los strings son cadenas de texto como por ejemplo: "Hola Mundo". Para que los strings sean validos deben estar encerrados entre comillas, pueden ser dobles "", simples '', y en algunos casos backticks o comillas francesas ``. 
+
+
+*FUNCIONES (ARGUMENTOS, `RETURN`): Las funciones son herramientas que nos permiten repetir ciertas acciones mediante su uso, y asi evitarnos tener que repetirlas manualmente por nuestra cuenta. Por ejemplo si quiero hacer una suma varias veces, puedo hacer una funcion que cada vez que sea invocada realice dicha suma. Las funciones, como en el ejemplo mencionado anteriormente, pueden recibir argumentos con los que la misma funcion luego va a trabajar, por ejemplo:
+
+Function Suma(a,b){
+	return a,b;
+}
+
+Los argumentos son variables que pueden tener cualquier nombre, pero que al ser llamados deben tener un valor especifico para que la funcion pueda operar. 
+Por ultimo, las funcions poseen un metodo llamado return, que es lo que genera el resultado de la misma y lo retorna, por ejemplo si llamo a la funcion y le paso los valores 2 y 4: Suma(2,4) el resultado seria 6. Ese 6 es lo que fue retornado desde la funcion.
+
+
+*DECLARACIONES `IF`: el if en programacion es conocido como una expresion condicional, esto significa que sirve de puerta para realizar una determinada accion. Dentro del if yo puedo ingresar una condicion, si esta condicion se cumple, la computadora o el programa va a realizar algo. Si no se cumple, puede realizar otra cosa o simplemente no hacer nada. Eso depende de las demas estructuras de control. Pero basicamente asi es como funciona el if
+
+
+*VALORES BOOLEANOS: Los valores booleanos de alguna manera estan vinculados con algunos de los terminos que explique mas arriba, ya que son un tipo de variable y tambien tienen mucho que ver con IF y sus expresiones condicionales. Los valores booleanos son dos, true y false, y basicamente lo que hacen es tener el valor de verdadero y falso, es decir, una variable que por ejemplo se llame "Encendido": false;
+va a tener un valo falso, yo si quiero puedo progamar algo que en cierto punto le cambie el valor a verdadero (true) y operar con ello.
+Las estructuras condicionales de cierta manera estan ligadas a esos valores, donde si una determinada condicion se cumple es tomada como verdadera (true) y se ejecuta determinada condicion, lo mismo en caso contrario con falso(false).
+
