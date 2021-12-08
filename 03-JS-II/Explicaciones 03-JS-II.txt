@@ -1,0 +1,24 @@
+Explicaciones 03-JS-II
+
+*FOR: el bucle for es lo que llamamos una estructura de control, que nos sirve para agilizar acciones repetitivas en nuestro codigo. Lo que el bucle for hace es repetir un bloque de codigo una determinada cantidad de veces. Lo bueno de esto es que mientras ese bucle esta ejecutandose , dentro se pueden hacer acciones, por lo que sirve mucho para hacer tablas, buscar valores puntuales, etc. De cierta manera los bucles tienen una forma de actuar similar a los IFs, pero de una manera un poco mas completa y compleja. El ciclo for cuenta de un contador, o una variable que es la que va a ir iterando hasta cumplir cierta condicion: cuando esta se cumple, el ciclo se termina. La manera en la que el ciclo va iterando es mediante aumentos o decrementos, estos mismos son asignados al principio del ciclo por el programador. Mientras el ciclo se esta ejecutando, se puede salir en cualquier momento mediante una serie de keywords (palabras que el lenguaje tiene guardadas para realizas determinadas acciones) claves, como return, break, etc.
+Ejemplo de bucle for:
+
+For(let i = 2; i < = 10; i+2){
+	console.log(i);
+}
+
+En este ejemplo el bucle se inicia en dos, con la condidicion de que cuando sea igual o menor a 10 termine, y con un incremento de 2 en cada vuelta. Lo que retorna en cada iteracion es el contador, dando por resultado los numeros pares del 2 al 10.
+
+
+*OPERADORES LOGICOS: `&&`, `||`, `!`: 
+Los operadores logicos nos permiren hacer comparaciones entre dos elementos. Este tipo de operacion es la conocida como logica booleana. Los operadores logicos sirven como condiciones dentro de los if o los bucles for, entre otras cosas.
+
+Operador `&&`: Este operador es conocido como el operador AND (Y en español), y su funcion es chequear que LOS DOS ELEMENTOS cumplan determinada condicion, si es asi, devuelve un resultado true, caso contrario, sin imporar el valor y el orden de los elementos que no cumplen la condicion, devuelve false.
+
+Operador `||`: Llamado operador Or (Ó en español) al contrario que el AND, devuelve un valor verdadero si ALGUNA de las dos condiciones se cumplen, sin imporar que la otra sea falsa.
+
+Operador `!`: Este operador, tambien conocido como NOT (NO en español) lo que hace es invertir el valor de un elemento, es decir si un elemento tiene un valor TRUE, el operador ! lo va a convertir en FALSE, y lo mismo al reves, si el operador es FALSE, el operador ! lo convertira en TRUE
+
+
+
+
