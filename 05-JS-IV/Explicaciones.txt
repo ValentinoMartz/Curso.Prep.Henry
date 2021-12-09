@@ -1,0 +1,34 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+
+*OBJETOS: Asi como los arrays pueden guardar muchos valores de un mismo tipo o que tengan alguna relacion entre si, los objetos guardan mucha informacion sobre una misma cosa. Son el eje central de la programacion orientada a objetos, donde por ejemplo, en JavaScript, todo es considerado un objeto. Estos objetos pueden tener valores y propiedades que son asignadas mediante el nombre de la propiedad: y el valor, esto es conocido como la entidad Clave:Valor. Tambien pueden tener funciones, que dentro de los objetos son mejor conocidas como metodos. En resumen, en un objeto se pueden almacenar multiples variables con multiples valores, pero siempre referidos a algo en particular. Puede ser una persona, un gato, cualquier cosa. En JS todo es un objeto.
+Ejemplo de Objeto:
+let Objeto = {
+	nombre: "Valentino",
+	apellido: "Martinez",
+	nombreCompleto: function(){
+	return nombre + " " + apellido;
+	},
+	edad: 27
+}
+La notacion de un objeto es la siguiente, se declara con una variable y luego un signo de igual, a continuacion se abren llaves, dentro, como mencione anteriormente se ponen las claves y valores con : entre si. Luego, algo importante, es que los atributos se deben separar mediante una coma (",") no mediante un ;
+Al final del objeto no debo poner coma ni nada
+
+
+*PROPIEDADES: las propiedades son los atributos que posee un objeto, como comente mas arriba, pueden ser de cualquier tipo
+
+*METODOS: Los metodos son las funciones que posee un objeto dentro, son funciones comunes pero es una buena practica y un comun acuerdo entre programadores llamarlas metodos.
+
+*FOR ....IN: Asi como los arrays se pueden recorrer con el metodo .length, los objetos pueden recorerse mediante un bucle for in, su funcionamiento es basicamente el mismo pero su estructura cambia un poco: Se declara el for de la misma manera, pero dentro de las parentesis es donde esta la diferencia, se declara una variable y luego se llama in Variable que quiero recorrer. Veamos:
+for(valores in Objeto){
+	ejecuto algo
+}
+
+
+*NOTACIONES: En JS hay dos formas de acceder a propiedades puntuales de los objetos, la notacion de puntos, ejemplo: Objeto.nombre, y tambien la notacion de corchetes: Objeto["nombre"]
