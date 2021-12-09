@@ -1,0 +1,5 @@
+Explicaciones 04-JS-III
+
+ARRAYS*: Un array, tambien conocido como arreglo o lista, es un tipo de dato que nos permite almacenar dentro de el varios tipos iguales de datos, pudiendo ser estos repetidos o distintos. Es decir, dentro de un array puedo guardar por ejemplo numeros, como por ejemplo: let arrayNuevo = [1,2,3,4,5] pero tambien pueden ser cualquier tipo de contenido siempre y cuando sean del mismo tipo de dato, pueden ser letras, numeros, booleanos, etc. Los strings por ejemplo, de alguna manera son arrays de cadena de texto.
+Cada elemento dentro del arreglo posee un indice, comenzando siempre desde el indice 0.
+Hay distintos metodos para poder acceder a los valores que hay dentro, asi como para poder operar con ellos o agregar o quitar elementos.
