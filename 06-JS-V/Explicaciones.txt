@@ -1,0 +1,9 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `prototype`
+* _Constructors_ (de Clases)
+
+*PROTOTYPE: Es una manera que tienen las clases de crear o modificar metodos dentro de los objetos, llamando a esta funcion, puedo modificar todos los objetos al mismo tiempo, ahorrandome mucho trabajo y tiempo. Cada clase tiene una propiedad prototype, estos metodos tienen acceso a la palabra this, mediante la cual se señala al objeto con el que se va a realizar dicha accion.
+
+
+*CONTRUCTORS: Es un metodo especial para inicializar objetos, aqui se pasan los argumentos y los valores dentro se aplican mediante this. De un constructor, luego, puedo crear muchos objetos iguales a partir de el. Los objetos que son creados a partir del constructor se llaman instancias, y heredan su estructura.
