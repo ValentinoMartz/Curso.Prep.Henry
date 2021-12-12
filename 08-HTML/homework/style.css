@@ -1,0 +1,50 @@
+h1{
+    color: blue;
+}
+
+.fotomain{
+    width:100%;
+
+}
+
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(12, 66, 68);
+    padding: 50px;
+    border: 10px;
+    border-color: black;
+    border-style: groove;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+body{
+    background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg');
+    font-size: 120%;
+    margin: 0 auto;
+    display: inline;
+    text-align: center;
+    
+    
+}
+
+.fotocv{
+    width: 40%;
+    height: 90%;
+    
+}
+ul{
+    display: inline;
+    text-align: center;
+}
+
+
+
+
+
