@@ -107,7 +107,7 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  let numMax = 0;
+  let numMax = numeros[0];
   for(let i = 0; i < numeros.length; i++){
     if(numeros[i] > numMax){
       numMax = numeros[i];
@@ -164,27 +164,28 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  let primerValor = n.toString();
+   let primerValor = n.toString();
   if(primerValor.charAt(0) === "9"){
     return true;
   }else{
   return false;
-  }
+  } 
+  
 }
 
 function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí 
-  
-  for(i = 0; i < arreglo.length - 1; i++){
+  for(let i = 0; i < arreglo.length - 1; i++){
     if(arreglo[i] !== arreglo[i+1]){
-      return false;
-    }
-  }
+      return false
+    } 
+  }  
   return true;
-  
 } 
+
+
 
 function mesesDelAño(array) {
   //Dado un array que contiene algunos meses del año desordenados, recorrer el array buscando los meses de 
@@ -199,7 +200,7 @@ function mesesDelAño(array) {
       //Me di cuenta que si los meses se repiten y cumplen la condicion se guardan de nuevo
      //como no se si esta bien o no, lo dejo sin modificarlo
   }
-  if(nuevoArray.length !== 3 ){
+  if(nuevoArray.length < 3 ){
     return "No se encontraron los meses pedidos";
   }
   return nuevoArray;
