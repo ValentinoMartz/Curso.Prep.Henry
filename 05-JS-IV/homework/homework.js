@@ -7,11 +7,11 @@ function crearGato(nombre, edad) {
   // Devuelve el objeto
   // Tu código:
   let gato = {
-    nombre: nombre,
-    edad: edad,
-    meow: () =>"Meow!"
-      } 
-      return gato;
+    nombre,
+    edad,
+    meow: () => "Meow!"
+  }
+  return gato;
 }
     
 
@@ -116,9 +116,10 @@ function pasarUsuarioAPremium(usuarios) {
   // Define cada propiedad "esPremium" de cada objeto como "true"
   // Devuelve el array de usuarios
   // Tu código:
-  for(let i = 0; i < usuarios.length; i++){
-    usuarios[i].esPremium = true;
-  }
+
+  usuarios.forEach(el => {
+    el.esPremium = true;
+  });
   return usuarios;
 }
 
@@ -130,8 +131,8 @@ function sumarLikesDeUsuario(usuario) {
   // Devuelve la suma
   // Tu código:
   let suma = 0;
-  for(i = 0; i < usuario.posts.length; i++){
-    suma += usuario.posts[i].likes;
+  for (let i = 0; i < usuario.posts.length; i++){
+    suma += usuario.posts[i].likes
   }
   return suma;
 }
@@ -147,7 +148,7 @@ function agregarMetodoCalculoDescuento(producto) {
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
   producto.calcularPrecioDescuento = function(){
-    return this.precio - (this.precio * this.porcentajeDeDescuento);
+   return this.precio - (this.precio * this.porcentajeDeDescuento);
   }
   return producto;
 }
